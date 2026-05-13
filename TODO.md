@@ -1,7 +1,8 @@
-- [x] Modifier index.php : ajouter require_once 'db.php'
-- [x] Remplacer la grille HTML statique par une boucle foreach(fetch) utilisant $pdo
-- [x] Afficher dans chaque card : nom dans .product-title, prix, image depuis images/
-- [x] Lier le data-whatsapp sur le nom
-- [ ] Vérifier le rendu dans le navigateur
+- [x] Convertir index.html en HTML pur (supprimer tout PHP)
+- [x] Remplacer la grille produits générée depuis la DB par une grille statique (texte + images locales)
+- [x] Mettre les liens WhatsApp en dur dans href (pas de JS dépendant des données PHP)
+- [x] Fixer l’année du footer
+- [x] Vérifier le rendu et les clics WhatsApp dans le navigateur
+
 
 
